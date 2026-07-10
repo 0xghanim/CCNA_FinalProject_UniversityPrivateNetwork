@@ -77,6 +77,9 @@ R2 acts as the Standby Router using HSRP.
 
 ### VLAN Verification
 
+![test](Topology.png)
+
+![test2](Screenshots/VLAN.png)
 ![VLANs](Screenshots/VLAN.png)
 
 ---
