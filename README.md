@@ -217,29 +217,13 @@ Hosts the university homepage that can be reached only by admins vlan due to the
 
 **Admin PC**
 
-![Standby](Screenshots/router_standby.png)
+![Admin web](Screenshots/PC_admin.png)
 
 ---
 
 ## NTP
 
 Provides synchronized time across routers and switches.
-
----
-
-## Syslog
-
-Collects logs from:
-
-- Routers
-- Switches
-
-Examples:
-
-- Interface Up/Down
-- Configuration Changes
-- HSRP Events
-- Port Security Violations
 
 ---
 
