@@ -1,7 +1,8 @@
-````markdown
 # 🎓 University Private Network Infrastructure - Cisco Packet Tracer
 
 A complete Cisco Packet Tracer project simulating a university network infrastructure based on CCNA networking concepts. The project demonstrates network segmentation, redundancy, security, and centralized network services.
+
+![Topology](Topology.png)
 
 ---
 
@@ -77,10 +78,7 @@ R2 acts as the Standby Router using HSRP.
 
 ### VLAN Verification
 
-![test](Topology.png)
-
-![test2](Screenshots/VLAN.png)
-![VLANs](Screenshots/VLAN.png)
+![VLAN](Screenshots/VLAN.png)
 
 ---
 
@@ -94,6 +92,14 @@ R2 acts as the Standby Router using HSRP.
 - EtherChannel (LACP)
 - Rapid Spanning Tree Protocol (RSTP)
 
+### Trunk Verification
+
+![Trunk](Screenshots/Trunk.png)
+
+### EtherChannel Verification
+
+![EtherChannel](Screenshots/Ethernet_Channel.png)
+
 ---
 
 ## Layer 3
@@ -101,6 +107,16 @@ R2 acts as the Standby Router using HSRP.
 - Router-on-a-Stick
 - Inter-VLAN Routing
 - HSRP (First Hop Redundancy)
+
+### HSRP Verification
+
+**Active**
+
+![Active](Screenshots/router_active.png)
+
+**Standby**
+
+![Standby](Screenshots/router_standby.png)
 
 ---
 
@@ -177,6 +193,10 @@ Dynamic IP assignment for:
 - Students
 - Admin
 
+**Staff Pc as example**
+
+![StaffPC](Screenshots/DHCP.png)
+
 ---
 
 ## DNS
@@ -193,7 +213,11 @@ www.university.local
 
 ## Web Server
 
-Hosts the university homepage.
+Hosts the university homepage that can be reached only by admins vlan due to the ACL 
+
+**Admin PC**
+
+![Standby](Screenshots/router_standby.png)
 
 ---
 
@@ -313,20 +337,6 @@ show port-security
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots of:
-
-- Network Topology
-- VLAN Configuration
-- HSRP Verification
-- DHCP Configuration
-- Web Server
-- Syslog Logs
-- Successful Ping Tests
-
----
-
 # 📖 Skills Demonstrated
 
 - Cisco Switching
@@ -353,7 +363,6 @@ Cybersecurity Student | Network & Web Penetration Testing Enthusiast
 - LinkedIn: https://www.linkedin.com/in/abdallah-ghanim-527326393/
 - Portofolio: https://0xghanim.github.io/portfolio/
 
----
+--- 
 
 ## ⭐ If you found this project useful, consider giving it a star!
-````
